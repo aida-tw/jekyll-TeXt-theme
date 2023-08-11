@@ -108,7 +108,7 @@ sources: # bootcdn (default), unpkg
 ## => Sharing
 ##############################
 sharing:
-  provider: false # false (default), "addtoany", "addthis", "custom"
+  provider: true # false (default), "addtoany", "addthis", "custom"
 
   ## AddThis
   addthis:
@@ -147,7 +147,7 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: true # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
