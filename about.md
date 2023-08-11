@@ -26,49 +26,50 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+## 介紹
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+這是一個發表使用MathAI軟體從各種的數據中得到不同於其他期刊的分析內容。以數據驅動模型為基礎，不同於過去傳統使用數據分析做驗證理論模型的研究或做法，更偏重於實務面與應用面的數據分析，提供決策者、企業、投資人、研究者、學生等更廣泛地認識數據分析和一般期刊對數據分析之應用。
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## 分析主題
 
-## Features
+- 經濟
+- 金融
+- 商業
+- 環境
+- 氣候
+- 公共衛生
+- 交通
+- 農業
+- 能源
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+不限以上。
 
-## Skins
+## 內容要求
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+- 標題
+- 作者
+- 圖
+- 數學式
+- 文字表述：不得低於500字。
+- 內容
+  - 前言：簡單描述動機/目的
+  - 描述數據來源
+  - 描述須表現數據來源的出處，使用的數據期間，和共幾筆樣本。
+  - 如有來源網站請以Markdown的連結語法，附在來源處名稱。
+  - 如有處理過數據則需要特別說明，例如有取對數，或轉為指數函數等。
+  - 需要對圖、表，或數學式進行描述和說明
+  - 討論：如對數據分析結果有個人想法或推論，請加「討論」標題，代表個人看法。
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+以上內容要求未盡理想，後續仍會調整。
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+## 圖表投稿
 
-### Highlight Theme
+針對特定數據集分析後，以圖方式投稿，文字敘述低於500字。如需補充，以【Comment:】做為標題投稿。
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+## 備註
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+- 因人力有限，請使用Markdown語法完成內容。
+- 投稿方式暫時以【問題】公開投稿，並且標題開頭寫上「投稿-你的文章標題」。
+- 如果你做的數據變量和別人相同，只是增加新的數據，例如別人做的是2013到2022年，你增加2023年的數據，請務必在【前言】內引用。
+- 引用網站上期刊論文或網站，請直接在內文中加M連結的arkdown語法。例如，想引用Stock and Watson (2016)，那麼就在2016上加論文出處的連結。因為期刊論文的作者很可能有多篇論文，所以連結加在年度的數字上。
+- 內文中如果引用的是外國期刊或網站，作者都用英文的姓表示，無須寫出全名。多個人名時，兩個人如第四點寫法，三個人則如 Chan et al. (年)這樣的寫法。如果是中文，兩個人是姓名和姓名(年)。超過兩個人則是姓名等人(年)。
