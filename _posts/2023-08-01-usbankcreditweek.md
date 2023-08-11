@@ -3,7 +3,7 @@ title: 美國銀行信貸總額之週趨勢分析 - 從2022年8月3日到2023年
 key: 20230801
 tags: 金融
 modify_date: 2023-08-01
-author: 李玫郁 | 機率模擬器有限公司董事長和中華大學兼任助理教授
+author: 李玫郁
 show_author_profile: true
 ---
 
